@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Tifinagh&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+            extend: {
+                fontFamily: { popp: ["Poppins", "sans-serif"] },
+                colors: {
+                    bluem: "#3A0CA3",
+                    blackk:" #2B2B2B" ,
+                    whiteblue:" #4361EE" ,
+                    darkbleu: "#232340",
+                    bluegray: "#C7D0FA",
+                    gray: "#808080",
+                    bgray: "#B1B0B5",
+                    pink: "#FFE1E1",
+                    red: "#FF1111",
+                    blue: "#119BFF",
+                    blueciel: "#D7EEFF",
+                    green: "#00CE3A",
+                    greenpess: "#F1FFF1",
+                    blueee: "#ECEFFD",
+                            },
+                backgroundImage: {
+                    'hero': "url('./image//Rectangle\ 4.png')",
+        }
+            },
+            },
+        };
+    </script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="font-popp">
+    <div class="continer w-[100%] ">
+
+        <!-- Head -->
+        <div class="hidden md:flex md:justify-between md:items-center bg-bluem text-white  text-[13px] md:px-[50px] lg:px-[100px] md:py-[12px] ">
+            <div class="flex items-center space-x-[10px]">
+                <img src="./images/🦆 icon _pin alt_.png" alt="">
+                <p class="">Rezilla, 18 Grattan St, Brooklyn</p>
+            </div>
+            <div class="flex items-center space-x-[30px]">
+                <div class="flex items-center space-x-[10px]">
+                    <img src="./images/🦆 icon _phone_.png" alt="">
+                    <p>+1 206-214-2298</p>
+                </div>
+                <div class="flex items-center space-x-[10px]">
+                    <img src="./images/🦆 icon _mail_.png" alt="">
+                    <p>support@rezilla.com</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header class="bg-hero bg-no-repeat bg-center relative" style="background-image: url(./images/Rectangle\ 4.png);">
+            <div class="contienr ">
+                <nav class="navbar  flex justify-between items-center py-[8px] md:py-[16px] md:bg-white px-[30px] bg-cover md:px-[30px] lg:px-[100px]" >
+                    <div class="hidden md:flex justify-between items-center text-[10px] lg:text-[16px] text-blackk font-medium">
+                        <ul class="flex items-center space-x-[5px]">
+                            <li class=""><a href="http://127.0.0.1:5500/rezilla/index.html" class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px] active:bg-blueciel active:rounded-[50px] hover:bg-blueciel hover:rounded-[50px]">Home</a></li>
+                            <li class=""><a href="" class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px] active:bg-blueciel active:rounded-[50px] hover:bg-blueciel hover:rounded-[50px]">Listings</a></li>
+                            <li class=""><a href="" class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px] active:bg-blueciel active:rounded-[50px] hover:bg-blueciel hover:rounded-[50px]">About</a></li>
+                            <li class=""><a href="" class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px] active:bg-blueciel active:rounded-[50px] hover:bg-blueciel hover:rounded-[50px]">Services</a></li>
+                            <li class=""><a href="" class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px] active:bg-blueciel active:rounded-[50px] hover:bg-blueciel hover:rounded-[50px]">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex md:block lg:flex  justify-center items-center space-x-[3px] md:space-x-0 lg:space-x-[3px] md:text-center lg:text-start">
+                        <img src="./images/Group 2232.png" alt="">
+                        <div class="flex justify-center items-center"><p class="text-[20px] font-semibold text-blackk">Rezilla</p></div>
+                    </div>
+                    <div class="hidden md:flex justify-center items-center space-x-[16px] text-[12px] lg:text-[16px] font-medium">
+                        <div class="flex justify-center items-center space-x-[5px]">
+                            <img src="./images/🦆 icon _user circle alt_.png" alt="">
+                            <div class="flex justify-center items-center space-x-[5px]"><a href="" class="">Login</a><p>/</p><a href="" class="">Register</a></div>
+                        </div>
+                        <span class="md:hidden lg:flex  justify-center items-center lg:space-x-[6px] bg-bluem  lg:px-[20px] py-[9px] lg:py-[13px] rounded-[50px]">
+                            <img src="./images/reshot-icon-house-XJ53QBRVTC 1.png" alt="" class="hidden lg:block">
+                            <p class="text-white text-center">Add Listing</p>
+                        </span>
+                    </div>
+                    <div class="">
+                        <div class="hamburger-menu block md:hidden space-y-[10px]">
+                            <div class="line h-[4px] w-[20px] bg-black rounded-[30px]"></div>
+                            <div class="line h-[4px] w-[40px] bg-black rounded-[30px]"></div>
+                            <div class="line h-[4px] w-[20px] bg-black rounded-[30px] justify-end"></div>
+                        </div>
+                        <div class="nav-menu z-10 w-full h-full pb-[50px]  hide fixed top-[0px] right-0 text-[10px] lg:text-[16px] text-blackk font-medium py-[10px] px-[10px]">
+                            <div class="m-auto space-y-[50px] bg-blueciel h-full w-[60%] absolute top-0 right-0 z-50">
+                                <div class="m-auto  space-x-[30px] space-y-[50px] ">
+                                    <div href="" class="close text-4xl " >&times;</div>
+                                    <ul class="text-center text-2xl">
+                                        <li class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px]"><a href="http://127.0.0.1:5500/rezilla/index.html" class="">Home</a></li>
+                                        <li class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px]"><a href="" class="">About</a></li>
+                                        <li class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px]"><a href="" class="">Listings</a></li>
+                                        <li class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px]"><a href="" class="">Services</a></li>
+                                        <li class="px-[11px] py-[8px] lg:px-14px] lg:py-[11px]"><a href="" class="">Blogs</a></li>
+                                    </ul>
+                                </div>
+                                <div class=" flex justify-center items-center space-x-[5px]">
+                                    <img src="./images/🦆 icon _user circle alt_.png" alt="">
+                                    <div class="flex justify-center items-center space-x-[5px]"><a href="" class="">Login</a><p>/</p><a href="" class="">Register</a></div>
+                                </div>
+                            </div>
+                            <div class="bg-black bg-opacity-50 w-full h-full absolute top-0"></div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="content lg:flex lg:justify-between space-y-[30px] md:space-y-[50px] lg:space-y-[10px] lg:space-x-[40px] mt-[40px] md:mt-[65px] lg:mt-[80px] items-end mb-10 px-[30px] bg-cover md:px-[30px] lg:px-[100px]">
+                    <div class="space-y-[20px] md:space-y-[40px] items-start">
+                        <div class="title space-y-[15px] md:space-y-[30px]">
+                            <h1 class="text-[16px] md:text-[18px] lg:text-[19px] text-whiteblue font-medium">REAL ESTATE</h1>
+                            <h2 class="text-[35px] md:text-[48px] lg:text-[57px] text-black font-semibold">Find a perfect home you love..!</h2>
+                        </div>
+                        <p class="md:w-[400px] lg:w-[580px]">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. Integer a dolor eu sapien sodales vulputate ac in purus.</p>
+                        <div class="view space-y-[11px]">
+                            <div class="images flex items-center relative">
+                                <img src="./images/Group 3.png" alt="" class="absolute left-0 md:left-[-3%]" id="prevButton">
+                                    <img src="./images/a.png" alt="" class="scroll-image rounded-[20px] w-full shadow-2xl" id="currentImage">
+                                <img src="./images/Group 4.png" alt="" class="absolute right-0 md:right-[-3%]"id="nextButton">
+                            </div>
+                            <div class="lines flex items-center justify-between" id="lines">
+                                <span class="thisimg line"></span>
+                                <span class="noimg line"></span>
+                                <span class="noimg line"></span>
+                                <span class="noimg line"></span>
+                            </div>
+                        </div>
+                    </div>        
+                    <div class="form space-y-[50px] md:space-y-[50px] bg-white rounded-[20px] pb-[40px] pd:mb-[60px] shadow-2xl">
+                        <div class="headform relative">
+                            <div class="flex items-center justify-center space-x-[50px] md:space-x-0 md:justify-between md:px-[40px]">
+                                <div class="">
+                                    <span class="text-bluem text-[16px] font-medium flex justify-center items-center px-[30px] md:px-[40px] py-[23px] mt-[10px]" id="forsale">
+                                        <p class="">For Sale</p>
+                                    </span>
+                                    <div class="block bg-bluem w-full h-[4px] rounded-[10px]" id="linesale"></div>
+                                </div>
+                                <div class="">
+                                    <span class="text-bluem text-[16px] font-medium flex justify-center items-center px-[30px] md:px-[40px] py-[23px] mt-[10px]" id="forrent">
+                                        <p>For Rent</p>
+                                    </span>
+                                    <div class="hide bg-bluem w-full h-[4px] rounded-[10px]" id="linerent"></div>
+                                </div>
+                            </div>
+                            <hr class="bg-bluegray">
+                        </div>
+                        <div class="bodyform text-[16px] space-y-[20px] md:space-y-[30px] mx-[22px] md:mx-[40px] mb-[40px] md:mb-[60px]">
+                            <input type="text" class="bg-transparent placeholder-blackk outline-none w-full lg:min-w-[200px] px-[18px] py-[20px] md:px-[20px] md:py-[26px] rounded-[20px] bg-bluegray" placeholder="New York, San Francisco, etc">
+                            <select name="" id="" class="text-blackk outline-none w-full lg:min-w-[200px] px-[18px] py-[20px] md:px-[20px] md:py-[26px] rounded-[20px] bg-bluegray">
+                                <option value="" class="">Select Rooms</option>
+                                <option value="" class="">1</option>
+                                <option value="" class="">2</option>
+                                <option value="" class="">3</option>
+                            </select>
+                            <div class=" space-y-[15px] md:space-y-[20px] ">
+                                <select name="" id="" class="text-blackk outline-none w-full lg:min-w-[200px] px-[18px] py-[20px] md:px-[20px] md:py-[26px] rounded-[20px] bg-bluegray">
+                                    <option value="" class="">Select Property Type</option>
+                                    <option value="" class="">1</option>
+                                    <option value="" class="">2</option>
+                                    <option value="" class="">2</option>
+                                </select>
+                                <div class="flex items-center space-x-[10px]">
+                                    <img src="./images/🦆 icon _setting 5_.png" alt="">
+                                    <a href="" class="text-[13px] text-bluem font-medium">Advance Search</a>
+                                </div>
+                            </div>
+                            <div class="search flex justify-center items-center space-x-[10px] py-[15px] md:py-[20px] bg-bluem rounded-[50px] w-auto">
+                                <img src="./images/🦆 icon _search normal 1_.png" alt="">
+                                <p class="font-medium text-white">Search</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main class="mt-[70px] md:mt-[68px] mb-[100px] md:mb-[180px] space-y-[100px] md:space-y-[130px] lg:space-y-[190px]">
+            <div class="continer">
+
+                <!-- SectionI -->
+                <section class="md:px-[100px] lg:px-[120px]">
+                    <div class="flex-wrap space-y-[40px] md:space-y-[60px] order-last">
+                        <div class="flex justify-center items-center px-[30px] md:px-0">
+                            <p class="text-[16px] text-gray font-medium">Trusted by 100+ Companies across the globe! </p>
+                        </div>
+                        <div class="flex justify-between items-center pl-[30px] md:pl-0 space-x-[20px] invisible-scrollbar">
+                            <img src="./images/image 1.png" alt="" class="grayscale">
+                            <img src="./images/image 2.png" alt="" class="grayscale">
+                            <img src="./images/image 3.png" alt="" class="grayscale">
+                            <img src="./images/image 4.png" alt="" class="grayscale">
+                            <img src="./images/image 5.png" alt="" class="grayscale">
+                            <img src="./images/image 6.png" alt="" class="grayscale">
+                        </div>
+                        <div class="cercle"></div>
+                    </div>
+                    <div class=" text-center md:text-start px-[30px] md:px-0 space-y-[30px] md:space-y-0 md:flex justify-center items-center md:space-x-[30px] w-full">
+                        <div class="flex items-center px-[30px] py-[28px] bg-white rounded-[50px] w-full md:w-[320px] shadow-2xl h-full">
+                            <div class="flex items-center relative w-[75%]">
+                                <div class="flex justify-center items-center rounded-[50%] border-[3px] border-white z-1"><img src="./images/Ellipse 3.png" alt=""></div>
+                                <div class="flex justify-center items-center rounded-[50%] border-[3px] border-white z-2 absolute left-[20px]"><img src="./images/Ellipse 4.png" alt=""></div>
+                                <div class="flex justify-center items-center rounded-[50%] border-[3px] border-white z-3 absolute left-[40px]"><img src="./images/Ellipse 5.png" alt=""></div>
+                                <div class="flex justify-center items-center rounded-[50%] border-[3px] border-white z-4 absolute left-[60px]"><img src="./images/Ellipse 6.png" alt=""></div>
+                                <div class="flex justify-center items-center rounded-[50%] border-[3px] border-white z-5 absolute left-[80px]"><img src="./images/Ellipse 7.png" alt=""></div>
+                                <div class="flex justify-center items-center rounded-[50%] border-[3px] border-white z-6 absolute left-[100px]">
+                                    <div class="flex justify-center items-center relative">
+                                        <img src="./images/Ellipse 7.png" alt="">
+                                        <div class="flex justify-center items-center absolute bg-black bg-opacity-50 text-white text-xl font-medium rounded-[50%] w-full h-full">+</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="text-[16px] md:text-[19px] font-medium">72k+ Happy Customers</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center px-[30px] py-[28px] bg-white rounded-[50px] w-full md:w-[320px] shadow-2xl space-x-[5px]">
+                            <div class="flex justify-center items-center rounded-[50%] border-[3px] border-white h-auto"><img src="./images/Ellipse 31.png" alt="" class="md:w-[50px]"></div>
+                            <p class="text-[16px] md:text-[19px] font-medium w-[150px] md:w-[170px]">200+ New Listings Everyday!</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- SectionII -->
+                <section class="px-[30px] md:px-[100px] lg:px-[120px] mt-[30px] md:mt-[90px]">
+                    <div class="continer space-y-[20px] md:space-y-[40px] md:grid grid-cols-6 grid-rows-6 gap-4">
+                        <div class=" space-y-[30px] lg:space-y-[40px] md:col-span-3 md:row-span-3">
+                            <div class="">
+                                <h3 class="text-[16px] md:text-[18px] lg:text-[19px] text-whiteblue font-medium">WHO ARE WE</h3>
+                                <h4 class="text-[26px] md:text-[32px] lg:text-[39px] text-black font-semibold">Assisting individuals in locating the appropriate real estate.</h4>
+                                <p class="text-[13px] md:text-[14.5px] lg:text-[16px] text-gray">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac malesuada leo volutpat.</p>
+                            </div>
+                        </div>
+                        <div class="relative  md:col-span-3 md:row-span-6 md:col-start-4">
+                            <div class="grid grid-cols-2 grid-rows-6 gap-4">
+                                <div class="row-span-6 relative top-[20px]"><img src="./images/Rectangle 14.png" alt="" class="rounded-[30px] shadow-2xl"></div>
+                                <div class="row-span-3"><img src="./images/Rectangle 15.png" alt="" class="rounded-[30px] shadow-2xl"></div>
+                                <div class="row-span-3 col-start-2 row-start-4"><img src="./images/Rectangle 16.png" alt="" class="rounded-[30px] shadow-2xl"></div>
+                            </div>
+                            <img src="./images/Group.png" alt="" class="absolute top-[-50px] left-[40%]">
+                            <img src="./images/Ellipse 17.png" alt="" class="absolute bottom-[70px] left-[60%]">
+                        </div>
+                        <div class="space-y-[30px] md:col-span-3 md:row-span-3 md:row-start-4">
+                            <div class="flex items-center space-x-[20px] bg-white rounded-[50px] px-[29px] py-[30px] shadow-2xl">
+                                <img src="./images/🦆 icon _smart home_.png" alt="">
+                                <div class="">
+                                    <h5 class="text-[16px] md:text-[18px] lg:text-[19px] text-whiteblue font-medium">Donec porttitor euismod</h5>
+                                    <p class="text-[13px] md:text-[14.5px] lg:text-[16px] text-gray">Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-[20px] bg-white rounded-[50px] px-[29px] py-[30px] shadow-2xl">
+                                <img src="./images/🦆 icon _user octagon_.png" alt="">
+                                <div class="">
+                                    <h5 class="text-[16px] md:text-[18px] lg:text-[19px] text-whiteblue font-medium">Donec porttitor euismod</h5>
+                                    <p class="text-[13px] md:text-[14.5px] lg:text-[16px] text-gray">Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SectionIII -->
+                <section class="mt-[30px] md:mt-[50px]">
+                    <div class="contaner space-y-[40px] md:space-y-[50px]">
+                        <div class="px-[30px] md:px-[100px] lg:px-[120px] md:flex justify-between items-center space-y-[40px] md:space-x-0 ">
+                            <div class="">
+                                <h3 class="text-[16px] md:text-[18px] lg:text-[19px] text-whiteblue font-medium">CHECKOUT OUR NEW</h3>
+                                <h4 class="text-[26px] md:text-[32px] lg:text-[39px] text-black font-semibold">Latest Listed Properties</h4>
+                                <p class="text-[13px] md:text-[14.5px] lg:text-[16px] text-gray">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
+                            </div>
+                            <div class="flex justify-between items-center space-x-[20px]">
+                                <span class="lestedactive" id="all">All</span>
+                                <span class="lestedinavtive" id="sell">Sell</span>
+                                <span class="lestedinavtive" id="rent">Rent</span>
+                            </div>
+                        </div>
+                        <div class="block" id="divall">
+                            <div class="px-[30px] md:px-[30px] md:pl-[100px] lg:pl-[120px] md:flex invisible-scrollbar space-y-[29px] md:space-x-[30px] md:space-y-0 ">
+                                <div class=" space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 18.png);">
+                                        <span class="flex items-center bg-pink space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/🦆 icon _fire_.png" alt="">
+                                            <p class="text-red text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold ">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 18.png);">
+                                        <span class="flex items-center bg-blueciel space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/🦆 icon _home_.png" alt="">
+                                            <p class="text-blue text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 19.png);">
+                                        <span class="flex items-center bg-greenpess space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/Vector.png" alt="">
+                                            <p class="text-green text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 20.png);">
+                                        <span class="flex items-center bg-pink space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/🦆 icon _fire_.png" alt="">
+                                            <p class="text-red text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide" id="divsell">
+                            <div class="px-[30px] md:px-[30px] md:pl-[100px] lg:pl-[120px] md:flex invisible-scrollbar space-y-[29px] md:space-x-[30px] md:space-y-0 ">
+                                <div class=" space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 20.png);">
+                                        <span class="flex items-center bg-pink space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/🦆 icon _fire_.png" alt="">
+                                            <p class="text-red text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold ">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 18.png);">
+                                        <span class="flex items-center bg-blueciel space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/🦆 icon _home_.png" alt="">
+                                            <p class="text-blue text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 19.png);">
+                                        <span class="flex items-center bg-greenpess space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/Vector.png" alt="">
+                                            <p class="text-green text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 18.png);">
+                                        <span class="flex items-center bg-pink space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/🦆 icon _fire_.png" alt="">
+                                            <p class="text-red text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide" id="divrent">
+                            <div class="px-[30px] md:px-[30px] md:pl-[100px] lg:pl-[120px] md:flex invisible-scrollbar space-y-[29px] md:space-x-[30px] md:space-y-0 ">
+                                <div class=" space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 17.png);">
+                                        <span class="flex items-center bg-pink space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/🦆 icon _fire_.png" alt="">
+                                            <p class="text-red text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold ">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 19.png);">
+                                        <span class="flex items-center bg-blueciel space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/🦆 icon _home_.png" alt="">
+                                            <p class="text-blue text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 20.png);">
+                                        <span class="flex items-center bg-greenpess space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/Vector.png" alt="">
+                                            <p class="text-green text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" space-y-[20px] md:space-y-[32px]">
+                                    <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 18.png);">
+                                        <span class="flex items-center bg-pink space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                            <img src="./images/🦆 icon _fire_.png" alt="">
+                                            <p class="text-red text-[13px] md:text-[16px] ">Popular</p>
+                                        </span>
+                                    </div>
+                                    <div class="space-y-[16px] md:space-y-[26px]">
+                                        <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                        <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                        <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                        <div class="flex items-center space-x-[20px]">
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bed_.png" alt="">
+                                                <p>4 Beds</p>
+                                            </div>
+                                            <div class="flex items-center space-x-[10px]">
+                                                <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                                <p>3 Bath</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden px-[30px] md:px-[30px] md:pl-[100px] lg:pl-[120px] invisible-scrollbar space-y-[29px] md:space-x-[30px] md:space-y-0 " id="div-more">
+                            <div class=" space-y-[20px] md:space-y-[32px]">
+                                <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 18.png);">
+                                    <span class="flex items-center bg-pink space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                        <img src="./images/🦆 icon _fire_.png" alt="">
+                                        <p class="text-red text-[13px] md:text-[16px] ">Popular</p>
+                                    </span>
+                                </div>
+                                <div class="space-y-[16px] md:space-y-[26px]">
+                                    <h6 class="text-[19px] md:text-[27px] font-semibold ">$ 5,970</h6>
+                                    <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                    <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                    <div class="flex items-center space-x-[20px]">
+                                        <div class="flex items-center space-x-[10px]">
+                                            <img src="./images/🦆 icon _bed_.png" alt="">
+                                            <p>4 Beds</p>
+                                        </div>
+                                        <div class="flex items-center space-x-[10px]">
+                                            <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                            <p>3 Bath</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" space-y-[20px] md:space-y-[32px]">
+                                <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 18.png);">
+                                    <span class="flex items-center bg-blueciel space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                        <img src="./images/🦆 icon _home_.png" alt="">
+                                        <p class="text-blue text-[13px] md:text-[16px] ">Popular</p>
+                                    </span>
+                                </div>
+                                <div class="space-y-[16px] md:space-y-[26px]">
+                                    <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                    <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                    <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                    <div class="flex items-center space-x-[20px]">
+                                        <div class="flex items-center space-x-[10px]">
+                                            <img src="./images/🦆 icon _bed_.png" alt="">
+                                            <p>4 Beds</p>
+                                        </div>
+                                        <div class="flex items-center space-x-[10px]">
+                                            <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                            <p>3 Bath</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space-y-[20px] md:space-y-[32px]">
+                                <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 19.png);">
+                                    <span class="flex items-center bg-greenpess space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                        <img src="./images/Vector.png" alt="">
+                                        <p class="text-green text-[13px] md:text-[16px] ">Popular</p>
+                                    </span>
+                                </div>
+                                <div class="space-y-[16px] md:space-y-[26px]">
+                                    <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                    <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                    <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                    <div class="flex items-center space-x-[20px]">
+                                        <div class="flex items-center space-x-[10px]">
+                                            <img src="./images/🦆 icon _bed_.png" alt="">
+                                            <p>4 Beds</p>
+                                        </div>
+                                        <div class="flex items-center space-x-[10px]">
+                                            <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                            <p>3 Bath</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" space-y-[20px] md:space-y-[32px]">
+                                <div class="flex items-end w-full h-[220px] md:w-[340px] md:h-[340px] rounded-[20px] px-[20px] py-[20px] md:px-[30px] md:py-[30px] bg-no-repeat bg-cover" style="background-image: url(./images/Rectangle\ 20.png);">
+                                    <span class="flex items-center bg-pink space-x-[5px] md:space-x-[10px] rounded-[20px] px-[24px] py-[10px]">
+                                        <img src="./images/🦆 icon _fire_.png" alt="">
+                                        <p class="text-red text-[13px] md:text-[16px] ">Popular</p>
+                                    </span>
+                                </div>
+                                <div class="space-y-[16px] md:space-y-[26px]">
+                                    <h6 class="text-[19px] md:text-[27px] font-semibold">$ 5,970</h6>
+                                    <h6 class="text-[16px] md:text-[19px] font-medium">Tranquil Haven in the Woods</h6>
+                                    <p class="text-gray text-[13px] md:text-[16px]">103 Wright CourtBurien, WA 98168</p>
+                                    <div class="flex items-center space-x-[20px]">
+                                        <div class="flex items-center space-x-[10px]">
+                                            <img src="./images/🦆 icon _bed_.png" alt="">
+                                            <p>4 Beds</p>
+                                        </div>
+                                        <div class="flex items-center space-x-[10px]">
+                                            <img src="./images/🦆 icon _bathroom_.png" alt="">
+                                            <p>3 Bath</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="md:hidden flex justify-center items-center" id="more">
+                            <button class="text-bluem border-bluem border-[2px] flex justify-center items-center px-[10px] py-[5px] rounded-[20px]">View more properties</button>
+                        </span>
+                        <span class="hidden md:hidden flex justify-center items-center" id="less">
+                            <button class="text-bluem border-bluem border-[2px] flex justify-center items-center px-[10px] py-[5px] rounded-[20px]">less properties</button>
+                        </span>
+                    </div>
+                </section>
+
+                <!-- SectionIV -->
+                <section class="bg-blueee mt-[30px] md:mt-[60px]">
+                    <div class="contaner px-[30px] md:px-[100px] lg:px-[120px] py-[100px]">
+                        <div class="text-center">
+                            <h3 class="text-[16px] md:text-[18px] lg:text-[19px] text-whiteblue font-medium">OUR SERVICES</h3>
+                            <h4 class="text-[26px] md:text-[32px] lg:text-[39px] text-black font-semibold">Donec porttitor euismod dignissim</h4>
+                        </div>
+                        <div class="md:flex md:flex-col-2 justify-between px-[30px] md:px-[100px] lg:px-[120px] py-[100px] space-y-[29px] md:space-y-0 md:space-x-[20px]">
+                            <div class="bg-white p-[30px] md:p-[45px] space-y-[20px] md:space-y-[20px] rounded-[20px] md:rounded-[30px]">
+                                <span class="m-auto bg-blue rounded-[50%] h-[90px] w-[90px] flex justify-center items-center shadow-lg shadow-blue">
+                                    <img src="./images/🦆 icon _search_.png" alt="" class="">
+                                </span>
+                                <div class="text-center m-auto space-y-[15px] md:space-y-[20px]">
+                                    <h6 class="text-[16px] md:text-[19px] font-medium">Buy a New Home</h6>
+                                    <p class="text-gray text-[13px] md:text-[16px]">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus.</p>
+                                </div>
+                            </div>
+                            <div class="bg-white p-[30px] md:p-[45px] space-y-[20px] md:space-y-[20px] rounded-[20px] md:rounded-[30px]">
+                                <span class="m-auto bg-blue rounded-[50%] h-[90px] w-[90px] flex justify-center items-center shadow-lg shadow-blue">
+                                    <img src="./images/🦆 icon _home_1.png" alt="" class="">
+                                </span>
+                                <div class="text-center m-auto space-y-[15px] md:space-y-[20px]">
+                                    <h6 class="text-[16px] md:text-[19px] font-medium">Sell a House</h6>
+                                    <p class="text-gray text-[13px] md:text-[16px]">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
+                                </div>
+                            </div>
+                            <div class="bg-white p-[30px] md:p-[45px] space-y-[20px] md:space-y-[20px] rounded-[20px] md:rounded-[30px]">
+                                <span class="m-auto bg-blue rounded-[50%] h-[90px] w-[90px] flex justify-center items-center shadow-lg shadow-blue">
+                                    <img src="./images/🦆 icon _bed_1.png" alt="" class="">
+                                </span>
+                                <div class="text-center m-auto space-y-[15px] md:space-y-[20px]">
+                                    <h6 class="text-[16px] md:text-[19px] font-medium">Rent a Hous</h6>
+                                    <p class="text-gray text-[13px] md:text-[16px]">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SectionV -->
+                <section class="px-[30px] md:px-[100px] lg:px-[120px] mt-[30px] md:mt-[100px]">
+                    <div class="contaner space-y-[40px] md:space-y-[80px]">
+                        <div class="">
+                            <h3 class="text-[16px] md:text-[18px] lg:text-[19px] text-whiteblue font-medium">CHECKOUT OUR NEW</h3>
+                                <h4 class="text-[26px] md:text-[32px] lg:text-[39px] text-black font-semibold">Latest Listed Properties</h4>
+                        </div>
+                        <div class="grid grid-cols-12 grid-rows-12 md:grid-cols-8 md:grid-rows-6 gap-4">
+                            <div class="col-span-6 row-span-4 md:col-span-2 md:row-span-3 relative">
+                                <img src="./images/Rectangle 17.png" alt="" class="rounded-[20px] w-full h-full">
+                                <div class="absolute top-0 w-full h-full bg-gradient-to-t from-black rounded-[20px]"></div>
+                                <div class="absolute bottom-[50px] left-[40px] text-white">
+                                    <h3 class="text-[27px] md:text-[45px] lg:text-[57px] font-semibold">216</h3>
+                                    <p class="text-[13px] md:text-[19px]" >New York City, N</p>
+                                </div>
+                            </div>
+                            <div class="relative col-span-6 row-span-4 col-start-7 md:col-span-2 md:row-span-3 md:col-start-3">
+                                <img src="./images/Rectangle 25.png" alt="" class="rounded-[20px] w-full h-full">
+                                <div class="absolute top-0 w-full h-full bg-gradient-to-t from-black rounded-[20px]"></div>
+                                <div class="absolute bottom-[50px] left-[40px] text-white">
+                                    <h3 class="text-[27px] md:text-[45px] lg:text-[57px] font-semibold">216</h3>
+                                    <p class="text-[13px] md:text-[19px]" >New York City, N</p>
+                                </div>
+                            </div>
+                            <div class="relative col-span-6 row-span-4 row-start-5 md:col-span-4 md:row-span-3 md:col-start-5">
+                                <img src="./images/Rectangle 26.png" alt="" class="rounded-[20px] w-full h-full">
+                                <div class="absolute top-0 w-full h-full bg-gradient-to-t from-black rounded-[20px]"></div>
+                                <div class="absolute bottom-[50px] left-[40px] text-white">
+                                    <h3 class="text-[27px] md:text-[45px] lg:text-[57px] font-semibold">216</h3>
+                                    <p class="text-[13px] md:text-[19px]" >New York City, N</p>
+                                </div>
+                            </div>
+                            <div class="relative col-span-6 row-span-4 col-start-7 row-start-5 md:col-span-3 md:row-span-3 md:row-start-4">
+                                <img src="./images/Rectangle 27.png" alt="" class="rounded-[20px] w-full h-full">
+                                <div class="absolute top-0 w-full h-full bg-gradient-to-t from-black rounded-[20px]"></div>
+                                <div class="absolute bottom-[50px] left-[40px] text-white">
+                                    <h3 class="text-[27px] md:text-[45px] lg:text-[57px] font-semibold">216</h3>
+                                    <p class="text-[13px] md:text-[19px]" >New York City, N</p>
+                                </div>
+                            </div>
+                            <div class="relative col-span-6 row-span-4 row-start-9 md:col-span-5 md:row-span-3 md:col-start-4 md:row-start-4">
+                                <img src="./images/Rectangle 28.png" alt="" class="rounded-[20px] w-full h-full">
+                                <div class="absolute top-0 w-full h-full bg-gradient-to-t from-black rounded-[20px]"></div>
+                                <div class="absolute bottom-[50px] left-[40px] text-white">
+                                    <h3 class="text-[27px] md:text-[45px] lg:text-[57px] font-semibold">216</h3>
+                                    <p class="text-[13px] md:text-[19px]" >New York City, N</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SectionVII -->
+                <section class="w-full mt-[30px] md:mt-[100px]">
+                    <div class="max-w-[1300px] mx-auto contaner flex items-center flex-col space-y-5 gap-5">
+                        <div class="py-5 flex items-center flex-col gap-2">
+                            <h3 class="text-[16px] md:text-[18px] lg:text-[19px] text-whiteblue font-medium">Introduce yourself to</h3>
+                            <h4 class="text-[26px] md:text-[32px] lg:text-[39px] text-black font-semibold">Our Team of Experts</h4>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 space-x-4 md:space-x-5 lg:space-x-8 gap-5">
+                            <div class="flex flex-col items-center gap-2 md:gap-7">
+                                <div class="h-[120px] w-[168px] md:w-[200px] h-[280px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 29.png"/>
+                                </div>
+                                <div class="flex items-center flex-col gap-2">
+                                    <h3 class="font-semibold drop-shadow-md  text-base md:text-2xl mt-2">Brendon M</h3>
+                                    <p class="text-whiteblue text-xs md:text-base">CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 md:gap-7">
+                                <div class="h-[120px] w-[168px] md:w-[200px] h-[280px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 30.png"/>
+                                </div>
+                                <div class="flex items-center flex-col gap-2">
+                                    <h3 class="font-semibold drop-shadow-md  text-base md:text-2xl mt-2">Jodi J. Appleby</h3>
+                                    <p class="text-whiteblue text-xs md:text-base">Real Estate Developer</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 md:gap-7">
+                                <div class="h-[120px] w-[168px]  md:w-[200px] h-[280px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 31.png"/>
+                                </div>
+                                <div class="flex items-center flex-col gap-2">
+                                    <h3 class="font-semibold drop-shadow-md  text-base md:text-2xl mt-2">Justin S. Meza</h3>
+                                    <p class="text-whiteblue text-xs md:text-base">Listing Agent</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 md:gap-7">
+                                <div class="h-[120px] w-[168px]  md:w-[200px] h-[280px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 32.png"/>
+                                </div>
+                                <div class="flex items-center flex-col gap-2">
+                                    <h3 class="font-semibold drop-shadow-md  text-base md:text-2xl mt-2">Susan T. Smith</h3>
+                                    <p class="text-whiteblue text-xs md:text-base">Buyer's Agent</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SectionVIII -->
+                <section class="w-full bg-[#3A0CA3] py-10 relative mt-[30px] md:mt-[60px]">
+                    <div class="max-w-[1300px] mx-auto contaner flex items-center flex-col space-y-5 gap-5">
+                        <div class="py-5 flex items-center flex-col gap-2">
+                            <h4 class="text-white uppercase text-lg">WHAT’S TRENDING</h4>
+                            <p class="text-center text-4xl text-white font-semibold">
+                            Latest Blogs & Posts
+                            </p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 space-x-4 md:space-x-5 lg:space-x-8 gap-5">
+                            <div class="gap-2">
+                                <div class="relative w-[333px] h-[200px] md:w-[340px] md:h-[240px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 35.png" alt="">
+                                    <span class="top-4 left-14 bg-white flex flex-col absolute rounded-b-lg w-[50px] items-center">
+                                        <span class="font-medium text-base">28</span>
+                                        <span class="text-[#808080] text-xs">Tue</span>
+                                    </span>
+                                </div>
+                                <div class=" flex flex-col gap-4 w-[333px] md:w-[340px]">
+                                    <h2 class="text-white md:text-2xl">Top 10 Home Buying Mistakes to Avoid</h2>
+                                    <p class="text-[#D4D4D4] md:text-sm text-xs">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum</p>
+                                    <button class="hidden md:block bg-white rounded-full w-[50px] h-[50px] self-end flex justify-center items-center">
+                                        <div class=""><img src="./images/Arrow 1.png" alt="" class="mx-auto"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative w-[333px] h-[200px] md:w-[340px] md:h-[240px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 36.png" alt="">
+                                    <span class="top-4 left-14 bg-white flex flex-col absolute rounded-b-lg w-[50px] items-center">
+                                        <span class="font-medium text-base">08</span>
+                                        <span class="text-[#808080] text-xs">Mon</span>
+                                    </span>
+                                </div>
+                                <div class="flex flex-col gap-4 w-[333px] md:w-[340px]">
+                                    <h2 class="text-white md:text-2xl">How to Stage Your Home for a Quick Sale</h2>
+                                    <p class="text-[#D4D4D4] md:text-sm text-xs">Nullam odio lacus, dictum quis pretium congue, vehicula venenatis nunc.</p>
+                                    <button class="hidden md:block bg-white rounded-full w-[50px] h-[50px] self-end flex justify-center items-center">
+                                        <div class=""><img src="./images/Arrow 1.png" alt="" class="mx-auto"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="gap-2">
+                                <div class="relative w-[333px] h-[200px] md:w-[340px] md:h-[240px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 37.png" alt="">
+                                    <span class="top-4 left-14 bg-white flex flex-col absolute rounded-b-lg w-[50px] items-center">
+                                        <span class="font-medium text-base">26</span>
+                                        <span class="text-[#808080] text-xs">Wed</span>
+                                    </span>
+                                </div>
+                                <div class="flex flex-col gap-4 w-[333px] md:w-[340px]">
+                                    <h2 class="text-white md:text-2xl">5 Tips for First-Time Home Sellers</h2>
+                                    <p class="text-[#D4D4D4] md:text-sm text-xs">In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.</p>
+                                    <button class="hidden md:block bg-white rounded-full w-[50px] h-[50px] self-end flex justify-center items-center ">
+                                        <div class=""><img src="./images/Arrow 1.png" alt="" class="mx-auto"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden md: grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 space-x-4 md:space-x-5 lg:space-x-8 gap-5" id="div-more">
+                            <div class="gap-2">
+                                <div class="relative w-[333px] h-[200px] md:w-[340px] md:h-[240px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 35.png" alt="">
+                                    <span class="top-4 left-14 bg-white flex flex-col absolute rounded-b-lg w-[50px] items-center">
+                                        <span class="font-medium text-base">28</span>
+                                        <span class="text-[#808080] text-xs">Tue</span>
+                                    </span>
+                                </div>
+                                <div class=" flex flex-col gap-4 w-[333px] md:w-[340px]">
+                                    <h2 class="text-white md:text-2xl">Top 10 Home Buying Mistakes to Avoid</h2>
+                                    <p class="text-[#D4D4D4] md:text-sm text-xs">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum</p>
+                                    <button class="hidden md:block bg-white rounded-full w-[50px] h-[50px] self-end flex justify-center items-center">
+                                        <div class=""><img src="./images/Arrow 1.png" alt="" class="mx-auto"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative w-[333px] h-[200px] md:w-[340px] md:h-[240px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 36.png" alt="">
+                                    <span class="top-4 left-14 bg-white flex flex-col absolute rounded-b-lg w-[50px] items-center">
+                                        <span class="font-medium text-base">08</span>
+                                        <span class="text-[#808080] text-xs">Mon</span>
+                                    </span>
+                                </div>
+                                <div class="flex flex-col gap-4 w-[333px] md:w-[340px]">
+                                    <h2 class="text-white md:text-2xl">How to Stage Your Home for a Quick Sale</h2>
+                                    <p class="text-[#D4D4D4] md:text-sm text-xs">Nullam odio lacus, dictum quis pretium congue, vehicula venenatis nunc.</p>
+                                    <button class="hidden md:block bg-white rounded-full w-[50px] h-[50px] self-end flex justify-center items-center">
+                                        <div class=""><img src="./images/Arrow 1.png" alt="" class="mx-auto"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="gap-2">
+                                <div class="relative w-[333px] h-[200px] md:w-[340px] md:h-[240px]">
+                                    <img class="w-full h-full" src="./images/Rectangle 37.png" alt="">
+                                    <span class="top-4 left-14 bg-white flex flex-col absolute rounded-b-lg w-[50px] items-center">
+                                        <span class="font-medium text-base">26</span>
+                                        <span class="text-[#808080] text-xs">Wed</span>
+                                    </span>
+                                </div>
+                                <div class="flex flex-col gap-4 w-[333px] md:w-[340px]">
+                                    <h2 class="text-white md:text-2xl">5 Tips for First-Time Home Sellers</h2>
+                                    <p class="text-[#D4D4D4] md:text-sm text-xs">In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.</p>
+                                    <button class="hidden md:block bg-white rounded-full w-[50px] h-[50px] self-end flex justify-center items-center ">
+                                        <div class=""><img src="./images/Arrow 1.png" alt="" class="mx-auto"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="mt-5 md:flex items-center  gap-6 justify-between hidden py-4">
+                        <div class="w-[100px] bg-white h-[2px] rounded-full cursor-pointer"></div>
+                        <div class="w-[100px] bg-white bg-opacity-50 h-[2px] rounded-full cursor-pointer hover:bg-opacity-100"></div>
+                        <div class="w-[100px] bg-white bg-opacity-50 h-[2px] rounded-full cursor-pointer hover:bg-opacity-100"></div>
+                        </div>
+                        <button class="md:hidden bg-white text-[#3A0CA3] text-base self-start px-5 py-2 rounded-tr-full rounded-br-full font-medium" id="more">
+                            View more blogs
+                        </button>
+                        <button class="hidden md:hidden bg-white text-[#3A0CA3] text-base self-start px-5 py-2 rounded-tr-full rounded-br-full font-medium" id="less">
+                            less blogs
+                        </button>
+                    </div>
+                    
+                </section>
+
+                <!-- SectionIX -->
+                <section class="w-full py-10 h-[600px] px-[30px] md:px-[100px] lg:px-[120px] py-[100px]">
+                    <div class="max-w-[1300px] h-full mx-auto contaner flex flex-col md:flex-row items-center justify-between space-y-5 gap-5">
+                        <div class="md:w-[500px] flex flex-col gap-4">
+                            <h5 class="mt-2 uppercase text-[#4361EE] font-medium text-base md:text-lg"> TESTIMONIALS</h5>
+                            <p class="md:w-[300px] text-2xl md:text-4xl font-semibold">Look What Our Customers Say!</p>
+                            <p class="md:w-[400px] text-[#2B2B2B] font-regular text-xs md:text-base">Fusce venenatis tellus a felis scelerisque, non pulvinar estpellentesque.</p>
+                            <div class="flex max-w-[150px] justify-between gap-5 mb-5">
+                                <button class="hidden md:block border border-[#4361EE] text-[#4361EE] rounded-full bg-white rounde-full w-[50px] h-[50px]" id="prevbtn">
+                                    <img src="./images/Arrow 11.png" alt="" class="m-auto">
+                                </button>
+                                <button class="hidden md:block border border-[#4361EE] text-[#4361EE] rounded-full bg-white rounde-full w-[50px] h-[50px]" id="nextbtn">
+                                    <img src="./images/Arrow 2.png" alt="" class="m-auto">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="" id="boxport">
+                            <div class="port1 md:w-[500px] py-5  flex items-center flex-col md:flex-row gap-6 relative" id="port">
+                                <img src="./images/Ellipse 17.png" class="block absolute top-0 left-1/2 md:top-0 md:-left-7 -z-50"/>
+                                <div class="rounded-lg shadow-lg px-10 py-5 flex flex-col gap-6 z-50 relative">
+                                    <img src="./images/“.png" class="w-[30px] h-[20px]" />
+                                    <p>I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!</p>
+                                    <span class="h-[1px] w-full bg-[#D4D4D4] rounded-full block"></span>
+                                    <div class="flex items-center justify-between w-full ">
+                                        <div class="flex items-center md:justify-between w-full flex-wrap">
+                                            <img src="./images/Ellipse 15.png" />
+                                            <div class="flex md:basis-9/12 ms-4 md:ms-0 md:justify-between flex-col md:flex-row  ">
+                                                <span>Barbara D. Smith</span>
+                                                <div class="md:self-end text-yellow-400 ">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star text-gray-400"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex md:flex-col  gap-4">
+                                    <span class="h-[2px] md:h-[40px] bg-[#808080] w-[40px] md:w-[5px] rounded-full"></span>
+                                    <span class="h-[2px] md:h-[40px] bg-[#AAAAAA] w-[40px] md:w-[5px] rounded-full"></span>
+                                    <span class="h-[2px] md:h-[40px] bg-[#AAAAAA] w-[40px] md:w-[5px] rounded-full"></span>
+                                </div>
+                            </div>
+                            <div class="port2 hidden md:w-[500px] py-5  flex items-center flex-col md:flex-row gap-6 relative" id="port">
+                                <img src="./images/Ellipse 17.png" class="block absolute top-0 left-1/2 md:top-0 md:-left-7 -z-50"/>
+                                <div class="rounded-lg shadow-lg px-10 py-5 flex flex-col gap-6 z-50 relative">
+                                    <img src="./images/“.png" class="w-[30px] h-[20px]" />
+                                    <p>I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We</p>
+                                    <span class="h-[1px] w-full bg-[#D4D4D4] rounded-full block"></span>
+                                    <div class="flex items-center justify-between w-full ">
+                                        <div class="flex items-center md:justify-between w-full flex-wrap">
+                                            <img src="./images/Ellipse 4.png" />
+                                            <div class="flex md:basis-9/12 ms-4 md:ms-0 md:justify-between flex-col md:flex-row  ">
+                                                <span>Barbara D. Smith</span>
+                                                <div class="md:self-end text-yellow-400 ">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star text-gray-400"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex md:flex-col  gap-4">
+                                    <span class="h-[2px] md:h-[40px] bg-[#AAAAAA] w-[40px] md:w-[5px] rounded-full"></span>
+                                    <span class="h-[2px] md:h-[40px] bg-[#808080] w-[40px] md:w-[5px] rounded-full"></span>
+                                    <span class="h-[2px] md:h-[40px] bg-[#AAAAAA] w-[40px] md:w-[5px] rounded-full"></span>
+                                </div>
+                            </div>
+                            <div class="port3 hidden md:w-[500px] py-5 flex items-center flex-col md:flex-row gap-6 relative" id="port">
+                                <img src="./images/Ellipse 17.png" class="block absolute top-0 left-1/2 md:top-0 md:-left-7 -z-50"/>
+                                <div class="rounded-lg shadow-lg px-10 py-5 flex flex-col gap-6 z-50 relative">
+                                    <img src="./images/“.png" class="w-[30px] h-[20px]" />
+                                    <p>I highly recommend Jodi J. Appleby. She was attentive to ourneeds and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!</p>
+                                    <span class="h-[1px] w-full bg-[#D4D4D4] rounded-full block"></span>
+                                    <div class="flex items-center justify-between w-full ">
+                                        <div class="flex items-center md:justify-between w-full flex-wrap">
+                                            <img src="./images/Ellipse 5.png" />
+                                            <div class="flex md:basis-9/12 ms-4 md:ms-0 md:justify-between flex-col md:flex-row  ">
+                                                <span>Barbara D. Smith</span>
+                                                <div class="md:self-end text-yellow-400 ">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star text-gray-400"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex md:flex-col  gap-4">
+                                    <span class="h-[2px] md:h-[40px] bg-[#AAAAAA] w-[40px] md:w-[5px] rounded-full"></span>
+                                    <span class="h-[2px] md:h-[40px] bg-[#AAAAAA] w-[40px] md:w-[5px] rounded-full"></span>
+                                    <span class="h-[2px] md:h-[40px] bg-[#808080] w-[40px] md:w-[5px] rounded-full"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SectionX -->
+                <section class="px-[30px] md:px-[100px] lg:px-[120px] mt-[100px]">
+                    <div class="contaner bg-bluem px-[30px] md:px-[20px] w-full relative md:flex items-center space-y-[20px] md:space-y-0 md:space-x-[20px] rounded-[20px] md:rounded-[20px]">
+                        <img src="./images/Ellipse 16.png" alt="" class="absolute right-0 top-[-20%] md:top-[2%px] md:right-[5%] w-[252px] md:w-auto">
+                        <div class="text-white space-y-[20px] md:space-y-[30px]">
+                            <h6 class="text-[27px] md:text-[38px] font-semibold">Become a Agent.</h6>
+                            <p class="text-[13px] md:text-[16px] md:max-w-[344px]">Fusce venenatis tellus a felis scelerisque. venenatis tellus a felis scelerisque.  </p>
+                        </div>
+                        <button class=" bg-white text-bluem text-[13px] md:text-[16px] md:ml-[70px] px-2 py-1 rounded-full font-medium">Register Now</button>
+                        <div class="self-end relative md:order-first">
+                            <img src="./images/Ellipse 172.png" alt="" class="left-[20px] top-[120px] md:left-[246px] md:top-[148px] absolute z-1">
+                            <img src="./images/unsplash_7uoMmzPd2JA.png" alt="" class=" z-2">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="">
+            <div class="contaner">
+                <div class="text-center justify-between md:text-start md:flex md:flex-wrap px-[30px] md:px-[100px] lg:px-[120px] bg-blueee py-[60px] md:py-[82px] ">
+                    <div class=" space-y-[30px]">
+                        <div class="flex items-center justify-center md:justify-start space-x-[3px] md:space-x-0 lg:space-x-[3px] md:text-center lg:text-start">
+                            <img src="./images/Group 2232.png" alt="">
+                            <div class="flex justify-center items-center"><p class="text-[20px] font-semibold text-blackk">Rezilla</p></div>
+                        </div>
+                        <p>2728 Hickory StreetSalt 
+                            Lake City, UT 84104</p>
+                        <div class="flex items-center justify-center md:justify-start space-x-[10px]">
+                            <img src="./images/🦆 icon _phone_1.png" alt="">
+                            <p>+1 206-214-2298</p>
+                        </div>
+                        <div class="flex items-center justify-center md:justify-start space-x-[10px]">
+                            <img src="./images/🦆 icon _mail_1.png" alt="">
+                            <p>support@rezilla.com</p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block space-y-[40px]">
+                        <h6 class="text-[20px] font-medium text-blackk">Quick Links</h6>
+                        <ul class="space-y-[10px]">
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="http://127.0.0.1:5500/rezilla/index.html" class="">Home</a></li>
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">About</a></li>
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">Listings</a></li>
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">Services</a></li>
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">Blogs</a></li>
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">Become a Agent</a></li>
+                        </ul>
+                    </div>
+                    <div class="hidden md:block space-y-[40px]">
+                        <h6 class="text-[20px] font-medium text-blackk">Discovery</h6>
+                        <ul class="space-y-[10px]">
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">Canada</a></li>
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">United States</a></li>
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">Germany</a></li>
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">Africa</a></li>
+                            <li class="text-blackk text-[13px] md:text-[16px]"><a href="" class="">India</a></li>
+                        </ul>
+                    </div>
+                    <div class=" space-y-[30px]">
+                        <h6 class="text-[20px] font-medium text-blackk">Subscribe to our Newsletter!</h6>
+                        <div class="text-start space-y-[20px]">
+                            <span class="flex items-center justify-between w-auto md:w-[350px] bg-white rounded-[50px] shadow-xl p-[4px] ">
+                                <input type="email" class="bg-transparent placeholder-blackk outline-none ml-[10px]" placeholder="Email Address" id="input-email">
+                                <img src="./images/Group 12232.png" alt="" id="email-send">
+                            </span>
+                            <p id="errorMessage" class="text-red"></p>
+                            <p id="validemessage" class="text-green"></p>
+                        </div>
+                    </div>
+                    <div class="space-y-[20px]">
+                        <div class="flex justify-center md:justify-start items-center">
+                            <h6 class="text-[20px] font-medium text-blackk">Follow Us on</h6>
+                        </div>
+                        <div class="flex items-center justify-center space-x-[20px] md:justify-start">
+                            <img src="./images/🦆 icon _linkedin in_.png" alt="">
+                            <img src="./images/🦆 icon _facebook f_.png" alt="">
+                            <img src="./images/🦆 icon _instagram_.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center bg-black px-[30px] md:px-[100px] lg:px-[120px] py-[5px] ">
+                    <div class="">
+                        <p class="text-gray text-[13px] md:text-[16px] font-light">© Rezilla – All rights reserved</p>
+                    </div>
+                    <div class="hidden md:flex space-x-[10px]">
+                        <p class="text-gray text-[13px] md:text-[16px] font-light ">Terms and Conditions</p>
+                        <p class="text-gray text-[13px] md:text-[16px] font-light">Privacy Policy</p>
+                        <p class="text-gray text-[13px] md:text-[16px] font-light">Disclaimer</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
